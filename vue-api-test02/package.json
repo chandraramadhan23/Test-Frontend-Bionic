@@ -1,5 +1,5 @@
 {
-  "name": "vue-project-test01",
+  "name": "vue-api-test02",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "cors": "^2.8.5",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
