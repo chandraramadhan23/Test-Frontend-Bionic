@@ -16,14 +16,65 @@
     text-decoration: none;
 }
 
-.image {
-    border-radius: 8%;
+.navbarRadius {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 62%;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 1px 1px 4px rgb(93, 93, 93);
 }
 
-.navbarRadius {
-    padding: 20px 30px;
-    width: 50%;
-    margin: auto;
-    background-color: rgb(234, 234, 234);
-    border-radius: 30px;
+.navbarRadius h5 {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+.navbarRadius h6 {
+    color: rgb(93, 93, 93);    
+    font-size: 15px;
+}
+
+.navbarRadius .linkNavbarRadius {
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.placeImageProfile{
+    /* max-width: 100%;
+    max-height: 100%; */
+    border-radius: 8%;
+    width: 320px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.love {
+    /* margin-right: 50px;*/
+    
+}
+
+.love img {
+    position: absolute;
+    width: 30px;
+}
+
+/* hover */
+.link a:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 40px;
+}
+
+.navbarRadius .linkNavbarRadius:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 40px;
+}
+
+.containerBody .imgProfile:hover {
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 1px 1px 4px rgb(93, 93, 93);
 }
